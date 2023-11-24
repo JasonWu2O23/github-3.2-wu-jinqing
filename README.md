@@ -6,6 +6,11 @@
 
 GitHub Authentication refers to the process of verifying the identity of users by providing unique credentials to GitHub before users can access certain resources on GitHub.
 
+GitHub Authentication methods available to be implemented as follow:
+* Username and password only: Users can log in to GitHub via their individual username and password, a common method for most users.
+* Two-factor authentication (2FA): 
+  
+
 ### Update the Readme file to contain least 15 github commands and what are the usage of them?
 
 Set Your Name and Email Address. These settings will be used to identify your commits in the Git history.
