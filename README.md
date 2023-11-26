@@ -7,11 +7,17 @@
 GitHub Authentication refers to the process of verifying the identity of users by providing unique credentials to GitHub before users can access certain resources on GitHub.
 
 GitHub Authentication methods available to be implemented as follow:
-* Username and password only: Users can log in to GitHub via their individual username and password, a common method for most users.
-* Two-factor authentication (2FA): 
-  
+* Username and password only - Users can log in to GitHub via their individual username and password, a common method for most users.
+* Two-factor authentication (2FA) - GitHub generates an authentication code any time someone attempts to sign into your account on GitHub.com. Thus, the only way someone can sign into your account is if they know both your password and have access to the authentication code on your phone.
+* Passkey - Add a passkey to your account to enable a secure, passwordless login. Passkeys satisfy both password and 2FA requirements, therefore you can complete your sign in with a single step.
+* SAML single sign-on
+* Authenticating with GitHub Desktop
+* Authenticating to the API with a personal access token - To use GitHub REST API for personal use.
+* Authenticating to the API with an app - To use the API on behalf of an organization or another user.
+* Authenticating to the API in a GitHub Actions workflow
+* Authenticating with the command line - via HTTPS, SSH
 
-### Update the Readme file to contain least 15 github commands and what are the usage of them?
+### Update the Readme file to contain at least 15 GitHub commands and what are the usage of them?
 
 Set Your Name and Email Address. These settings will be used to identify your commits in the Git history.
 ``````````````````````````````````````````````````````````````````````````````````````````````````````````
@@ -106,28 +112,21 @@ Show all commits in the current branch’s history.
 `````````````````````````````````````````````````
 git log
 `````````````````````````````````````````````````
-### What are the 4 Github commands that you think you will use the most in the real project and why? Explain it on the readme file.
+### What are the `4 GitHub commands` that you think you will use the most in the real project and why? Explain it on the readme file.
+* `git add .` - Stage all changes made to files in the working directory for the next commit.
+* `git commit -m` - Records changes to the repository with a descriptive commit message.
+* `git push` - Uploads local changes to the remote repository for collaboration.
+* `git pull` - Updates the local branch with changes from the remote repository to stay synchronized with the latest developments in the project.
+
+The above 4 commands facilitate effective collaboration, version control, and project management in a Git-based development environment.
 
 ### Push the changes you made to your repository. with different commit.
 
+Refer to https://github.com/JasonWu2O23/github-3.2-wu-jinqing/commits/main
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### References
+## References
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github
+\
 https://kinsta.com/knowledgebase/install-git/
 \
 https://github.com/su-ntu-ctp/6m-cloud-3.1-introduction-to-git-i/blob/main/CE%203.1%20Introduction%20to%20GIT%20I.pdf
